@@ -1,3 +1,5 @@
+@media screen and (max-width:1000px){
+    
 *{
     padding: 0px;
     margin: 0px;
@@ -171,12 +173,16 @@ h5{
 h6:hover{
     color: aliceblue;
 }
+
+}
+
+
 /*
 الكود الي تحت خاص بالتجاوب او
 reponsive
 */
 
-@media screen and (mix-width:100px){
+@media screen and (min-width:100px){
      
 
 
