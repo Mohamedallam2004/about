@@ -184,7 +184,7 @@ reponsive
 
 
      
-@media screen and (max-width:800px){
+@media screen and (max-with:100px),(max-width:600px){
 
     *{
         padding: 0px;
