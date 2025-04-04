@@ -380,3 +380,10 @@ reponsive
         color: aliceblue;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
