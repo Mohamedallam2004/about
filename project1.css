@@ -1,0 +1,379 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    text-align:center ;
+    margin: auto;
+    color: rgb(101, 101, 95);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: aliceblue;
+}
+
+.box{
+    height:90%;
+    width: 90%;
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+    border-radius: 50px;
+    outline: solid 1px rgb(255, 255, 255) ;
+    background-color:rgb(0, 0, 0);
+}
+
+h1{
+    margin-top: 5px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgb(79, 84, 80);
+}
+h1:hover{
+color: white;
+}
+
+.photo {
+    width: 200px;
+    height:200px;
+    margin-top: 20px;
+    border-radius: 100px;
+    outline: rgb(254, 253, 255) solid  .2px;
+    background-image:url(photo.png);
+}
+.photo:hover{
+    outline:rgb(253, 253, 255) solid 5px;
+}
+
+h2{
+    margin:10px ;
+    color: rgb(123, 129, 129);
+}
+
+.information{
+    border-radius: 20px;
+    outline: solid rgb(255, 255, 255) 1px;
+    height:90%;
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 5px;
+}
+.information p:hover{
+    color: white;
+}
+
+.important{
+    height: 50px;
+    background-color: rgb(0, 34, 255);
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    border-radius: 10px;
+}
+
+.information:hover{
+    outline: rgb(255, 255, 255) solid 5px;
+}
+
+.information p{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 100;
+    line-height: 50px;
+   
+}
+span,strong{
+    display: block;
+    line-height: normal;
+}
+span{
+    font-family: sans-serif;
+    color:rgba(243, 255, 6, 0.792);
+    margin-top: 5px;
+}
+
+.information  p strong{
+    background-color: rgb(0, 34, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+
+.links{
+    height: 90%;
+    width: 30%;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    outline: solid rgb(255, 253, 253) 1px;
+}
+
+.links:hover{
+    outline: rgb(255, 255, 255) solid 5px;
+}
+
+.links a{
+    display:block;
+    line-height:50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:rgb(79, 79, 81);
+}
+.links a:hover{
+    background-color: rgba(0, 255, 0, 0.758);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.links a:active{
+    width: 90%;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgb(0, 34, 255);
+    border-radius: 10px;
+    color: aliceblue;
+    height: 50px;
+    margin-bottom: 10px;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    margin-top:250px;
+}
+.foot p{
+    font-family: serif;
+    color: aliceblue;
+}
+h6:hover{
+    color: aliceblue;
+}
+/*
+الكود الي تحت خاص بالتجاوب او
+reponsive
+*/
+
+@media screen and (max-width:900px){
+     
+
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: monospace;
+        text-align:center;
+        margin: auto;
+        color: rgb(101, 101, 95);
+    }
+    
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .box{
+        height:100vh;
+        width: 100%;
+        margin: 30px;
+        padding: 20px;
+        position: relative;
+        border-radius: 50px;
+        outline: solid .5px rgb(0, 30, 255) ;
+        background-color:rgb(0, 0, 0);
+    }
+    
+    h1{
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        font-family: monospace;
+        font-variant: small-caps;
+        font-size: large;
+        width: fit-content;
+        color: rgb(79, 84, 80);
+    }
+    h1:hover{
+    color: white;
+    font-size: xx-large;
+    }
+    
+    .photo {
+        width: 70px;
+        height:70px;
+        margin-right: 10px;
+        margin-top: -5px;
+        border-radius: 100px;
+        outline: rgb(254, 253, 255) solid  .2px;
+        background-image:url(photo.png);
+        background-position: center;
+        background-size: contain;
+    }
+    .photo:hover{
+        outline:rgb(253, 253, 255) solid 2px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    h2{
+        position: absolute;
+        right: 45px;
+        text-align: left;
+        font-size: x-small;
+        color: rgb(123, 129, 129);
+    }
+    
+    .information{
+        border-radius: 10px;
+        height:50%;
+        width: 30%;
+        position: absolute;
+        top: 145px;
+        right: 20px;
+        padding: 10px;
+        outline: 1px rgb(8, 4, 249) solid;
+    }
+    .information p:hover{
+        color: white;
+    
+    }
+    
+    .important{
+        height: 20px;
+        background-color: rgb(0, 34, 255);
+        border-radius: 10px;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:x-large;
+        border-radius: 10px;
+    }
+    
+    .information:hover{
+        outline: rgb(255, 255, 255) solid 3px;
+    }
+    
+    span:hover{
+        font-size: large;
+    }
+    .information p{
+        font-family: serif ;
+        font-size: x-small;
+        line-height: 20px;
+
+       
+    }
+     .information p strong{
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    span{
+        font-family: sans-serif;
+        color:rgba(243, 255, 6, 0.792);
+        margin-top: 10px;
+    }
+    
+    .information  p strong{
+        background-color: rgb(0, 34, 255);
+        height: 20px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        color: aliceblue;
+    }
+    
+    
+    .links{
+        height: 50%;
+        width: 30%;
+        position: absolute;
+        top:0px;
+        bottom:0px;
+        left: 20px;
+        padding: 10px;
+        outline: none;
+    }
+    .links:hover{
+        outline:none;
+    }
+    
+
+    
+    .links a{
+        
+        padding: 5px;
+        text-align: center;
+        line-height:50px;
+        height: 50px;
+        width: 90%;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size:20px;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:rgb(79, 79, 81);
+    }
+    .links a:hover{
+        background-color: rgba(52, 240, 0, 0.354);
+        color: aliceblue;
+       border-radius: 1px;  
+    }
+    .links a:active{
+        width: 90%;
+        height: 30px;
+        font-size: x-small;
+    }
+    
+    h5{
+        font-family: monospace;
+        font-size: large;
+        text-transform: capitalize;
+        background-color: rgb(30, 0, 255);
+        color: rgb(222, 225, 238);
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        
+    }
+    
+    .foot{
+        display: flex;
+        flex-direction:row-reverse;
+        translate: 10px 200px;
+    }
+    .foot p{
+        font-family: serif;
+        font-size: small;
+        color: aliceblue;
+    }
+    h6:hover{
+        color: aliceblue;
+    }
+
+}
