@@ -114,6 +114,7 @@
         font-family: sans-serif;
         color:rgba(243, 255, 6, 0.792);
         margin-top: 10px;
+        display:block;
     }
     
     .information  p strong{
