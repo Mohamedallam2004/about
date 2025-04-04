@@ -185,7 +185,7 @@
     .foot{
         display: flex;
         flex-direction:row-reverse;
-        translate: 10px 200px;
+        translate: 10px 500px;
     }
     .foot p{
         font-family: serif;
