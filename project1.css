@@ -184,8 +184,8 @@ reponsive
 
 
      
+@media screen and (max-width:200px){
 
-/*
     *{
         padding: 0px;
         margin: 0px;
@@ -381,6 +381,4 @@ reponsive
     h6:hover{
         color: aliceblue;
     }
-
-
-*/
+}
