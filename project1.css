@@ -1,4 +1,4 @@
-
+@media screen and (max-width:1000px){
     
 *{
     padding: 0px;
@@ -174,7 +174,7 @@ h6:hover{
     color: aliceblue;
 }
 
-
+}
 
 
 /*
@@ -182,10 +182,10 @@ h6:hover{
 reponsive
 */
 
-@media screen and (max-widt:600px){
+
      
 
-
+/*
     *{
         padding: 0px;
         margin: 0px;
@@ -382,4 +382,5 @@ reponsive
         color: aliceblue;
     }
 
-}
+
+*/
