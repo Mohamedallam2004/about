@@ -1,190 +1,5 @@
-    *{
-    padding: 0px;
-    margin: 0px;
-    font-family: monospace;
-    text-align:center ;
-    margin: auto;
-    color: rgb(101, 101, 95);
-}
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    background-color: aliceblue;
-}
-
-.box{
-    height:90%;
-    width: 90%;
-    margin: 50px;
-    padding: 20px;
-    position: relative;
-    border-radius: 50px;
-    outline: solid 1px rgb(255, 255, 255) ;
-    background-color:rgb(0, 0, 0);
-}
-
-h1{
-    margin-top: 5px;
-    font-family: monospace;
-    text-transform: uppercase;
-    color: rgb(79, 84, 80);
-}
-h1:hover{
-color: white;
-}
-
-.photo {
-    width: 200px;
-    height:200px;
-    margin-top: 20px;
-    border-radius: 100px;
-    outline: rgb(254, 253, 255) solid  .2px;
-    background-image:url(photo.png);
-}
-.photo:hover{
-    outline:rgb(253, 253, 255) solid 5px;
-}
-
-h2{
-    margin:10px ;
-    color: rgb(123, 129, 129);
-}
-
-.information{
-    border-radius: 20px;
-    outline: solid rgb(255, 255, 255) 1px;
-    height:90%;
-    width: 30%;
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    padding: 5px;
-}
-.information p:hover{
-    color: white;
-}
-
-.important{
-    height: 50px;
-    background-color: rgb(0, 34, 255);
-    border-radius: 10px;
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size:x-large;
-    border-radius: 10px;
-}
-
-.information:hover{
-    outline: rgb(255, 255, 255) solid 5px;
-}
-
-.information p{
-    font-family: sans-serif;
-    font-size: large;
-    font-weight: 100;
-    line-height: 50px;
-   
-}
-span,strong{
-    display: block;
-    line-height: normal;
-}
-span{
-    font-family: sans-serif;
-    color:rgba(243, 255, 6, 0.792);
-    margin-top: 5px;
-}
-
-.information  p strong{
-    background-color: rgb(0, 34, 255);
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: aliceblue;
-}
-
-
-.links{
-    height: 90%;
-    width: 30%;
-    position: absolute;
-    top:0px;
-    bottom:0px;
-    left: 20px;
-    padding: 5px;
-    border-radius: 20px;
-    outline: solid rgb(255, 253, 253) 1px;
-}
-
-.links:hover{
-    outline: rgb(255, 255, 255) solid 5px;
-}
-
-.links a{
-    display:block;
-    line-height:50px;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size:20px;
-    font-weight: 100;
-    text-transform: uppercase;
-    color:rgb(79, 79, 81);
-}
-.links a:hover{
-    background-color: rgba(0, 255, 0, 0.758);
-    color: aliceblue;
-    border-radius: 10px;
-}
-.links a:active{
-    width: 90%;
-}
-
-h5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    background-color: rgb(0, 34, 255);
-    border-radius: 10px;
-    color: aliceblue;
-    height: 50px;
-    margin-bottom: 10px;
-    margin: 0;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.foot{
-    margin-top:250px;
-}
-.foot p{
-    font-family: serif;
-    color: aliceblue;
-}
-h6:hover{
-    color: aliceblue;
-}
-
-
-
-
-/*
-الكود الي تحت خاص بالتجاوب او
-reponsive
-*/
-
-
-     
-@media screen and (max-width:300px){
-
-    *{
+     *{
         padding: 0px;
         margin: 0px;
         font-family: monospace;
@@ -379,11 +194,193 @@ reponsive
     h6:hover{
         color: aliceblue;
     }
+
+
+
+
+
+
+/*اللي تحت علي طول التصميم الاول*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    text-align:center ;
+    margin: auto;
+    color: rgb(101, 101, 95);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: aliceblue;
+}
+
+.box{
+    height:90%;
+    width: 90%;
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+    border-radius: 50px;
+    outline: solid 1px rgb(255, 255, 255) ;
+    background-color:rgb(0, 0, 0);
+}
+
+h1{
+    margin-top: 5px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgb(79, 84, 80);
+}
+h1:hover{
+color: white;
+}
+
+.photo {
+    width: 200px;
+    height:200px;
+    margin-top: 20px;
+    border-radius: 100px;
+    outline: rgb(254, 253, 255) solid  .2px;
+    background-image:url(photo.png);
+}
+.photo:hover{
+    outline:rgb(253, 253, 255) solid 5px;
+}
+
+h2{
+    margin:10px ;
+    color: rgb(123, 129, 129);
+}
+
+.information{
+    border-radius: 20px;
+    outline: solid rgb(255, 255, 255) 1px;
+    height:90%;
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 5px;
+}
+.information p:hover{
+    color: white;
+}
+
+.important{
+    height: 50px;
+    background-color: rgb(0, 34, 255);
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    border-radius: 10px;
+}
+
+.information:hover{
+    outline: rgb(255, 255, 255) solid 5px;
+}
+
+.information p{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 100;
+    line-height: 50px;
+   
+}
+span,strong{
+    display: block;
+    line-height: normal;
+}
+span{
+    font-family: sans-serif;
+    color:rgba(243, 255, 6, 0.792);
+    margin-top: 5px;
+}
+
+.information  p strong{
+    background-color: rgb(0, 34, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: aliceblue;
 }
 
 
-@media screen and (max-width: 600px) {
-  body {
-    background-color: red;
-  }
+.links{
+    height: 90%;
+    width: 30%;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    outline: solid rgb(255, 253, 253) 1px;
 }
+
+.links:hover{
+    outline: rgb(255, 255, 255) solid 5px;
+}
+
+.links a{
+    display:block;
+    line-height:50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:rgb(79, 79, 81);
+}
+.links a:hover{
+    background-color: rgba(0, 255, 0, 0.758);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.links a:active{
+    width: 90%;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgb(0, 34, 255);
+    border-radius: 10px;
+    color: aliceblue;
+    height: 50px;
+    margin-bottom: 10px;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    margin-top:250px;
+}
+.foot p{
+    font-family: serif;
+    color: aliceblue;
+}
+h6:hover{
+    color: aliceblue;
+}
+
+
+
+
+/*
+الكود الي تحت خاص بالتجاوب او
+reponsive
+*/
+
