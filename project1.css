@@ -184,7 +184,7 @@ reponsive
 
 
      
-@media screen and (min-with:200px){
+@media screen and (max-with:700px){
 
     *{
         padding: 0px;
